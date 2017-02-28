@@ -1,0 +1,135 @@
+/*----作者：张雅娟  数信科技1304  0961130428-----*/
+*{
+	margin:0;
+	padding: 0;
+}
+html{
+	font-size: 100%;
+	height: 100%;
+}
+body{
+	height: 100%;
+}
+.message{
+	position:absolute;
+	left:45%;
+	top:20%;
+	width:200px;
+	height:100px;
+	background:#fff;
+	border:1px solid lightblue;
+	line-height:40px;
+	text-align:center;
+}
+.x{
+	width:15px;
+	height:15px;
+	line-height:15px;
+	position:absolute;
+	right:0;
+	top:0;
+	border:1px solid black;
+	cursor:pointer;
+}
+header{
+	width: 100%;
+	height:30px;
+	background-color: #fafafa;
+	font-size: 14px;
+	color: #333;
+}
+.header{
+	color:#333;
+}
+.header:link,.header:visited{
+	color:#333;
+	text-decoration:underline;
+}
+.header:hover{
+	color:#000;
+	text-decoration:underline;
+}
+.header:active{
+	color:#333;
+	text-decoration:underline;
+}
+.logo{
+	width: 15%;
+	float: left;
+	text-align: right;
+}
+nav{
+	width: 100%;
+	height: 50px;
+	background-color: #444;
+	color: #fff;
+	font-size: 16px;
+    font-family: "寰蒋闆呴粦";
+}
+.navm{
+	width: 60%;
+	height: 100%;
+	float: left;
+}
+.navm li{
+	display: inline-block;
+	width: 24%;
+}
+.navm li a{
+	display: block;
+	float: left;
+	width: 100%;
+	height: 100%;
+	line-height: 50px;
+	text-align: center;
+}
+.navm li a:link,a:visited{
+	color:#fff;
+	text-decoration: none;
+}
+.navm li a:hover{
+	color:#ccc;
+	text-decoration: none;
+}
+.search{
+	width: 15%;
+	height: 100%;
+	float: left;
+	line-height: 50px;
+}
+section{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+.box{
+	width: 200px;
+	margin-left: 50px;
+	margin-top: 20px;
+	float: left;
+}
+.box img{
+	box-shadow: 1px 1px 5px #ccc;
+}
+.pname{
+	width: 100%;
+	text-align: center;
+}
+.buy{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: lightblue;
+    border:1px solid lightblue;
+}
+.delete:link,.delete:visited{
+    color:blue;	
+}
+.delete:hover{
+	color:#000;
+}
+.delete:active{
+	color:blue;
+}

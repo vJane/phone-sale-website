@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>IndexSer</servlet-name>
+    <servlet-class>servlets.IndexSer</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegisterSer</servlet-name>
+    <servlet-class>servlets.RegisterSer</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginSer</servlet-name>
+    <servlet-class>servlets.LoginSer</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrderSer</servlet-name>
+    <servlet-class>servlets.OrderSer</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CartSer</servlet-name>
+    <servlet-class>servlets.CartSer</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LogoutSer</servlet-name>
+    <servlet-class>servlets.LogoutSer</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddSer</servlet-name>
+    <servlet-class>servlets.AddSer</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchSer</servlet-name>
+    <servlet-class>servlets.SearchSer</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelSer</servlet-name>
+    <servlet-class>servlets.DelSer</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SureSer</servlet-name>
+    <servlet-class>servlets.SureSer</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DetaSer</servlet-name>
+    <servlet-class>servlets.DetaSer</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+  <welcome-file-list>
+    <welcome-file>IndexSer</welcome-file>
+  </welcome-file-list>
+  <servlet-mapping>
+    <servlet-name>IndexSer</servlet-name>
+    <url-pattern>/IndexSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterSer</servlet-name>
+    <url-pattern>/RegisterSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginSer</servlet-name>
+    <url-pattern>/LoginSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderSer</servlet-name>
+    <url-pattern>/OrderSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CartSer</servlet-name>
+    <url-pattern>/CartSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogoutSer</servlet-name>
+    <url-pattern>/LogoutSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddSer</servlet-name>
+    <url-pattern>/AddSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchSer</servlet-name>
+    <url-pattern>/SearchSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelSer</servlet-name>
+    <url-pattern>/DelSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SureSer</servlet-name>
+    <url-pattern>/SureSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DetaSer</servlet-name>
+    <url-pattern>/DetaSer</url-pattern>
+  </servlet-mapping>
+
+</web-app>
